@@ -39,7 +39,7 @@ public class DikstraMatrix {
                 }
             }
 
-            if (v == -1 || dist[v] == INF) break; // если дальше недостижимо
+            if (v == -1 || dist[v] == INF) break; 
 
             used[v] = true;
 
@@ -55,4 +55,5 @@ public class DikstraMatrix {
             System.out.println("A -> " + (char) (vertex + i) + " = " + dist[i]);
         }
     }
+
 }
